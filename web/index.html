@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grok Council</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo" aria-hidden="true">◈</span>
+    <div>
+      <h1>Grok Council</h1>
+      <p class="tag">Three mock panelists. One consensus. Offline dry-run.</p>
+    </div>
+  </div>
+  <button id="btn-history" class="ghost" type="button" title="Past debates">History</button>
+</header>
+
+<section class="ask">
+  <label for="question">Question for the council</label>
+  <div class="ask-row">
+    <textarea id="question" rows="2" placeholder="e.g. Should I run local LLMs for fleet bots?" maxlength="400"></textarea>
+    <button id="btn-start" class="primary" type="button">Start Debate</button>
+  </div>
+  <div class="seeds" id="seeds" aria-label="Starter questions"></div>
+</section>
+
+<section class="panelists" id="panelists" aria-live="polite">
+  <article class="card grok" data-model="grok">
+    <header><span class="badge">Grok</span><span class="role">irreverent · concise</span></header>
+    <div class="stream" id="stream-grok"><p class="idle">Waiting for a question…</p></div>
+  </article>
+  <article class="card claude" data-model="claude">
+    <header><span class="badge">Claude</span><span class="role">careful · structured</span></header>
+    <div class="stream" id="stream-claude"><p class="idle">Waiting for a question…</p></div>
+  </article>
+  <article class="card codex" data-model="codex">
+    <header><span class="badge">Codex</span><span class="role">implementation-first</span></header>
+    <div class="stream" id="stream-codex"><p class="idle">Waiting for a question…</p></div>
+  </article>
+</section>
+
+<section class="final" id="final" hidden>
+  <h2>Consensus</h2>
+  <p class="consensus" id="consensus"></p>
+  <div class="scores" id="scores"></div>
+</section>
+
+<aside class="drawer" id="drawer" hidden>
+  <div class="drawer-inner">
+    <header>
+      <h2>Saved debates</h2>
+      <button id="btn-close-hist" class="ghost" type="button">Close</button>
+    </header>
+    <ul id="hist-list"></ul>
+    <p class="hint">Last 12 debates stay in localStorage on this computer only.</p>
+  </div>
+</aside>
+
+<footer class="foot">Grok Council · mock voices only · no API keys · works offline</footer>
+<script src="mock.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
