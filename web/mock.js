@@ -4,7 +4,7 @@ window.GC_MOCK = {
     "Should I run local LLMs for fleet bots, or stick with cloud?",
     "What's a sane morning digest cadence for personal AI agents?",
     "Weekend sports watch: Ravens + Chelsea + Terps — one screen or three tabs?",
-    "Kid-friendly coding projects Char and Vic could finish in a Saturday afternoon?",
+    "Kid-friendly coding projects Alex and Sam could finish in a Saturday afternoon?",
     "How aggressive should token-max builds be mid-week vs reset day?",
     "Is a personal bot island dashboard worth the maintenance tax?",
     "Should fleet routines page me for failures, or only for surprises?",
@@ -68,17 +68,17 @@ window.GC_MOCK = {
     kids_code: {
       keys: ["kid", "char", "vic", "coding", "saturday", "project", "tutor"],
       grok: {
-        r1: "Ship toys, not curricula. Vic: a tiny soccer score bug that moves. Char: a story generator that insults your typing (nicely). Done in one afternoon beats a half-finished 'platform'.",
+        r1: "Ship toys, not curricula. Sam: a tiny soccer score bug that moves. Alex: a story generator that insults your typing (nicely). Done in one afternoon beats a half-finished 'platform'.",
         r2: "Claude's scaffolding is wise — but if setup takes 40 minutes, you've lost Saturday. Prebake the starter on the laptop.",
         r3: "Consensus: one small game/tool each, prebaked starter, celebrate screenshots. Frame: finish > fancy."
       },
       claude: {
-        r1: "Match independence levels. Vic thrives with clear steps and visible feedback; Char can handle slightly more open prompts if the goal is concrete. Keep it offline-friendly and avoid accounts.",
+        r1: "Match independence levels. Sam thrives with clear steps and visible feedback; Alex can handle slightly more open prompts if the goal is concrete. Keep it offline-friendly and avoid accounts.",
         r2: "Agree on prebaked starters. Add a 5-minute demo script so a grandparent can help without knowing JS.",
         r3: "Support finishable Saturday projects with a helper card. Soft caveat: no pressure if sports win the afternoon."
       },
       codex: {
-        r1: "Repo-shaped: `starter/` with run.html, 3 TODOs marked `// YOUR CODE`, and a smoke check. Themes: Hornets bug (Vic), word scramble (Char).",
+        r1: "Repo-shaped: `starter/` with run.html, 3 TODOs marked `// YOUR CODE`, and a smoke check. Themes: Hornets bug (Sam), word scramble (Alex).",
         r2: "Preinstall Node-free: pure HTML/JS file://. Checklist printed on the fridge board.",
         r3: "Ship two starters + checklist. Consensus: finishable toys."
       }
