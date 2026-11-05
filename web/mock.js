@@ -128,7 +128,7 @@ window.GC_MOCK = {
       },
       claude: {
         r1: "Severity ladder: P0 page now (blocked decision / money surprise), P1 same-day, P2 digest. Failures without user impact shouldn't buzz your phone during dinner.",
-        r2: "Agree with Grok on surprises. Add: quiet hours + Miranda-relevant items only via agreed channels.",
+        r2: "Agree with Grok on surprises. Add: quiet hours + Jordan-relevant items only via agreed channels.",
         r3: "Yes to ladder + quiet hours. Soft dissent: sports logistics may feel P1 even if not 'system' failures."
       },
       codex: {
