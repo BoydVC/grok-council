@@ -132,7 +132,7 @@ window.GC_MOCK = {
         r3: "Yes to ladder + quiet hours. Soft dissent: sports logistics may feel P1 even if not 'system' failures."
       },
       codex: {
-        r1: "Implement `severity` on routine results. Mapper: unexpected charge / waiting-on-Boyd → page; routine retry success → log only.",
+        r1: "Implement `severity` on routine results. Mapper: unexpected charge / waiting-on-Alex → page; routine retry success → log only.",
         r2: "Unit-test the mapper with canned events. No network send in dry-run.",
         r3: "Ship mapper + quiet hours config. Consensus: page sparingly."
       }
